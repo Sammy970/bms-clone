@@ -45,9 +45,9 @@ const Nav = () => {
           </div>
         </div>
       </nav>
-      <nav className="w-full flex flex-col bg-[#222539] p-2 px-3">
-        <div className="w-[85%] max-md:w-[95%] m-auto flex items-center justify-between">
-          <div className="flex flex-1 items-center justify-start gap-5 text-[#cccccc]">
+      <nav className="w-full flex flex-col items-center bg-[#222539] p-2.5 px-3">
+        <div className="w-[85%] max-md:w-[95%] m-auto flex max-sm:flex-col max-sm:gap-2 items-center justify-between">
+          <div className="flex w-full flex-1 items-center justify-start leading-normal gap-5 text-sm font-semibold text-[#cccccc]">
             <Link href="#" className="hover:text-white">
               Movies
             </Link>
@@ -70,7 +70,7 @@ const Nav = () => {
               Buzz
             </Link>
           </div>
-          <div className="flex flex-1 items-center justify-end gap-5 text-white">
+          <div className="flex flex-1 items-center justify-end gap-5 text-sm text-white">
             <Link href="#">ListYourShow</Link>
             <Link href="#">Corporates</Link>
             <Link href="#">Offers</Link>
